@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "nvs-coding-coffee-v2-tfstate"
     prefix = "env/prod"
   }
 }

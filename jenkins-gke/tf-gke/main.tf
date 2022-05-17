@@ -95,6 +95,7 @@ module "jenkins-gke" {
       min_count    = 3
       max_count    = 6
       auto_upgrade = true
+      image_type = "COS_CONTAINERD"
     }
   ]
 }
